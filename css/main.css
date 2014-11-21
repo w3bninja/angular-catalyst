@@ -1,0 +1,21 @@
+
+/* logged out state */
+.isloggedin-false .logged-in {
+  display: none;
+}
+
+.isloggedin-false .logged-out {
+  display: block;
+}
+
+/* logged in state */
+.isloggedin-true .logged-in {
+  display: block;
+}
+.isloggedin-true .logged-in a {
+  opacity: 1;
+}
+
+.isloggedin-true .logged-out {
+  display: none;
+}
